@@ -15,7 +15,7 @@
      	"default_popup": "pastingExtension.html"
   	},
  	"icons": {
-  	 	"16": "assets/16.png",
+        "16": "assets/16.png",
         "48": "assets/48.png",
         "128": "assets/128.png",
         "256": "assets/256.png"
