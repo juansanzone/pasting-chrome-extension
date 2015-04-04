@@ -1,0 +1,90 @@
+body {
+  min-width:300px;
+  min-height:324px;
+  background-color: #FFF;
+}
+
+.myGrandHead {
+  width: 300px;
+  color: #515151;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.pastingInput {
+  border: 0px solid #125FB6;
+  margin-top: 5px;
+  font-size:13px;
+  background: #FFF; 
+  color: #000; 
+  border-radius: 0.3em; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 220px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+button.create {
+  position: relative;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  background: #125FB6;
+  color: white;
+  padding: 18px 60px;
+  border-radius: 2px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 58px;
+  margin-top: 5px;
+}
+
+button.create:hover {
+  background: #0E4D93;
+}
+
+div.link {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+}
+
+div.username {
+  float: left;
+}
+
+.spinner {
+  float: right;
+  width: 100px;
+  height: 100px;
+  background-color: #FFF;
+  border-radius: 100%;
+  -webkit-animation: scaleout 1.0s infinite ease-in-out;
+  animation: scaleout 1.0s infinite ease-in-out;
+  position: fixed;
+  margin-top: -55px;
+  margin-left: 45px;
+}
+
+@-webkit-keyframes scaleout {
+  0% { -webkit-transform: scale(0.0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleout {
+  0% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
